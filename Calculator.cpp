@@ -4,9 +4,9 @@ int main() {
 	std::string input;
 	std::cout << "Calcuator:";
 	std::cin >> input;
+	double x;
+	double y;
 	if (input == "add") {
-		double x;
-		double y;
 		std::cout << "Number 1: ";
 		std::cin >> x;
 		std::cout << "Number 2: ";
@@ -14,8 +14,6 @@ int main() {
 		std::cout  <<"Answer: "<< x + y;
 	}
 	else if (input == "subtract") {
-		double x;
-		double y;
 		std::cout << "Number 1: ";
 		std::cin >> x;
 		std::cout << "Number 2: ";
@@ -23,9 +21,6 @@ int main() {
 		std::cout << "Answer: " << x - y;
 	}
 	else if (input == "divide") {
-		
-		double x;
-		double y;
 		std::cout << "Number 1: ";
 		std::cin >> x;
 		std::cout << "Number 2: ";
@@ -34,8 +29,6 @@ int main() {
 
 	}
 	else if (input == "multiply") {
-		double x;
-		double y;
 		std::cout << "Number 1: ";
 		std::cin >> x;
 		std::cout << "Number 2: ";
